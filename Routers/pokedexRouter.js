@@ -9,8 +9,8 @@ const pokedexControllers = require('../controllers/pokedexController');
 
 //---------------------Routes----------------------------------------//
 
-//Get pokemon by type...
-router.get('/type', pokedexControllers.getPokemonByType);
+//Get pokemon by id...
+router.get('/:id', pokedexControllers.getPokemonById);
 
 
 // //GET by :id

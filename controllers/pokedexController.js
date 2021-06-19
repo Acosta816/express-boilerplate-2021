@@ -6,14 +6,14 @@ require('dotenv').config();
 
 
 //------------------------------Get pokemon by Type-----------------------------//
-const getPokemonByType = (req, res, next) => {
+const getPokemonById = (req, res, next) => {
     res.send(process.env.EXAMPLE);
-};//end of getPokemonByType
+};//end of getPokemonById
 
 
 
 
 //this is where you would export the logic getPokemonById, getPokemonByType, etc
 module.exports = {
-    getPokemonByType
+    getPokemonById
 };
